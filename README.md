@@ -7,7 +7,7 @@
 	@ Pay	  : 4,500,000
 	@ Place   : Chun-Cheon(Member) <-> GwaCheon(Client)
 
-# Role.
+# Part.
 	@ DonYoung Choi  : Control, Plan, Application, Maintenance.
 	@ TaeKyoung Sung : Web, DB, Server, Maintenance.
 	@ DongSun Park 	 : DB, Server
