@@ -11,4 +11,12 @@
 	@ DonYoung Choi  : Control, Plan, Application, Maintenance.
 	@ TaeKyoung Sung : Web, DB, Server, Maintenance.
 	@ DongSun Park 	 : DB, Server
+	
+# Tool.
+	- Application
+	  @ Tool		 : Eclipse.
+		@ Language : Java, Android SDK.
+	- Web (?)
+	- DB 		 : MySQL
+	- Server : Dothome.co.kr(Linux) 
 
