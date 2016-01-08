@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10" >
+
+    <!-- index -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#464646"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/index"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/background_material_light"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- index -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:paddingLeft="0.1dp"
+        android:weightSum="9" >
+
+        <!-- name, needs, reserve -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <!-- name -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:background="#464646"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_marginLeft="7dp"
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="left"
+                    android:padding="0dp"
+                    android:text=""
+                    android:textColor="@color/background_material_light"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!-- name -->
+
+
+            <!-- needs -->
+
+
+            <!-- needs -->
+
+
+            <!-- reserve -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:background="#464646"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/reserve"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginRight="2dp"
+                    android:gravity="right|center_vertical"
+                    android:padding="3dp"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="@color/background_material_light"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!-- reserve -->
+        </LinearLayout>
+        <!-- name, need, reserve -->
+
+
+        <!-- address, phone, blackbox, channel, state -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <!-- address -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:padding="3dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textSize="12dp" />
+                </LinearLayout>
+                <!-- address -->
+                <!-- phone, blackbox,channel -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="5" >
+
+                    <!-- phone -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/phone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text="010-1234-5678"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                    <!-- phone -->
+                    <!-- blackbox -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/blackbox"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                    <!-- blackboxl -->
+                    <!-- channel -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/channel"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                    <!-- channel -->
+                </LinearLayout>
+                <!-- phone, blackbox,channel -->
+            </LinearLayout>
+            <!-- state -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="8"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/state"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center|center_vertical"
+                    android:padding="3dp"
+                    android:text=""
+                    android:textSize="12dp" />
+            </LinearLayout>
+            <!-- state -->
+        </LinearLayout>
+        <!-- address, phone, blackbox, channel, state -->
+    </LinearLayout>
+
+</LinearLayout>

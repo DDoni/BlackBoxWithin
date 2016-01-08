@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0.1dp"
+        android:layout_weight="1"
+        android:background="#464646"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="뒤로"
+            android:background="#d2d2d2"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="공지사항"
+            android:textColor="@color/background_material_light"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=" "
+            android:textColor="@color/background_material_light"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0.1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="0.5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#dcdcdc"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:text="공지 사항 테스트"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:orientation="horizontal"
+        android:paddingBottom="0.5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:weightSum="10" >
+
+        <TextView
+            android:id="@+id/uploader"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="7"
+            android:background="#dcdcdc"
+            android:gravity="right|center_vertical"
+            android:text="관리자"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:background="#dcdcdc"
+            android:gravity="center"
+            android:text="15.07.31"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/notice_body"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="0.5dp"
+        android:layout_weight="7.6"
+        android:background="#dcdcdc"
+        android:gravity="left|top"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="0.5dp"
+        android:text="공지 사항 테스트입니다
+        내용입니다 하나둘셋네 하나나나하나나"
+        android:textSize="16dp" />
+
+</LinearLayout>

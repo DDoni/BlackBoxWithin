@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="0.1dp"
+        android:weightSum="10" >
+
+        <!-- name, needs, reserve -->
+
+        <LinearLayout
+            android:id="@+id/color_zone"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="#C0FFFF"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <!-- name -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="3.3"
+                android:orientation="horizontal"
+                android:weightSum="3.3" >
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:paddingLeft="3dp"
+                    android:textColor="@color/background_material_light"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <!-- name -->
+
+
+                <!-- needs -->
+
+                <TextView
+                    android:id="@+id/needs"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="True"
+                    android:gravity="left"
+                    android:padding="3dp" />
+            </LinearLayout>
+            <!-- needs -->
+
+
+            <!-- reserve -->
+
+            <LinearLayout
+                android:id="@+id/color_zone1"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="6.7"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/reserve"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="right|center_vertical"
+                    android:singleLine="true"
+                    android:textColor="@color/background_material_light"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <!-- reserve -->
+        </LinearLayout>
+        <!-- name, need, reserve -->
+
+
+        <!-- address, phone, blackbox, channel, state -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:orientation="vertical"
+                android:weightSum="2" >
+
+                <!-- address -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center_vertical"
+                        android:padding="3dp"
+                        android:singleLine="true"
+                        android:textSize="12dp" />
+                </LinearLayout>
+                <!-- address -->
+                <!-- phone, blackbox,channel -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="5" >
+
+                    <!-- phone -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/car"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                    <!-- phone -->
+                    <!-- blackbox -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.5"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/blackbox"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                    <!-- blackboxl -->
+                    <!-- channel -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/channel"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center"
+                            android:padding="3dp"
+                            android:singleLine="true"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+                    <!-- channel -->
+                </LinearLayout>
+                <!-- phone, blackbox,channel -->
+            </LinearLayout>
+            <!-- state -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/state"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="True"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+            <!-- state -->
+        </LinearLayout>
+        <!-- address, phone, blackbox, channel, state -->
+    </LinearLayout>
+
+</LinearLayout>
